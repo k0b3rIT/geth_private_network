@@ -1,0 +1,2 @@
+#!/bin/bash
+geth --ws --ws.port 8545 --http --http.port 4444 --http.api personal,eth,net,web3 --mine --miner.threads=1 --datadir ~/dev/private_eth_network/ --networkid 44 --nodiscover --fakepow --allow-insecure-unlock
